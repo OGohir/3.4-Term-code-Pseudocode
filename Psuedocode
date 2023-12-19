@@ -1,0 +1,19 @@
+Refienment 1
+
+Print "guess the number between 1-100"  
+print "take a guess"
+number = 37
+input guess
+boolean go = true
+
+    Loop go
+        guess is > than number
+    print "Numbers too high. Take another guess"
+    input guess
+
+    Else if guess is < then number
+    print "Numbers too low. Take another guess"
+    input guess
+
+    Else number = guess
+    print "Correct."
